@@ -3,6 +3,7 @@ body {
   background-color: blanchedalmond;
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .body {
@@ -26,8 +27,12 @@ body {
 
 button {
   color: white;
+  border-style: solid;
+  border-color: #e5e7eb;
   background-color: #3882f6;
   border-radius: 15px;
+  width: 150px;
+  height: 35px;
 }
 
 .hero-section {
@@ -45,6 +50,11 @@ button {
   flex: 1;
 }
 
+.hero-right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero-left-content,
 .hero-right-content {
   padding: 50px;
@@ -74,6 +84,12 @@ button {
   padding: 36px;
 }
 
+.card img {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 5px;
+}
 .hero-header-text {
   font-size: 36px;
 }
@@ -97,6 +113,7 @@ blockquote {
 
 figcaption {
   text-align: right;
+  font-size: 18px;
 }
 
 .cta {
@@ -114,6 +131,7 @@ figcaption {
   border-radius: 10px;
   background-color: #3882f6;
   width: 1050px;
+  color: white;
 }
 
 .cta-left-content {
@@ -142,7 +160,8 @@ ul {
 }
 
 .footer {
-    display: flex;
+  display: flex;
   background-color: #1f2937;
   color: #e5e7eb;
+  justify-content: center;
 }
