@@ -1,0 +1,148 @@
+body {
+  height: 100vh;
+  background-color: blanchedalmond;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.logo {
+  color: #f9faf8;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 15px;
+}
+
+.hero-section {
+  background-color: #1f2937;
+}
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-header-content {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.hero-left-content,
+.hero-right-content {
+  padding: 50px;
+  width: 350px;
+  flex-shrink: 0;
+}
+.random-information {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 36px;
+}
+
+.hero-header-text {
+  font-size: 36px;
+}
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+blockquote {
+  width: 800px;
+}
+
+figcaption {
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.cta-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #3882f6;
+  width: 1050px;
+}
+
+.cta-left-content {
+  flex-direction: column;
+  padding-right: 150px;
+}
+
+.cta-left-content,
+.cta-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+    display: flex;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
